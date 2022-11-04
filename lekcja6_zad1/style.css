@@ -1,6 +1,6 @@
-li span:nth-of-type(odd){
+li:nth-of-type(odd){
     background-color:red;
 }
-span:nth-child(even){
+li:nth-of-type(even){
     background-color:blue;
 }
