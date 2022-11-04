@@ -1,0 +1,12 @@
+.main_div {
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.div {
+    height: 50px;
+    width: 30%;
+    background-color: green;
+    margin-right: 5%;
+}

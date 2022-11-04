@@ -1,0 +1,8 @@
+ul:nth-of-type(odd) {
+    font-size: 50px;
+    text-align: center;
+}
+li:nth-of-type(even){
+    font-size: 80px;
+    text-align: center;
+}

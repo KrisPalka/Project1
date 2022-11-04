@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    max-width: 768px;
+    width: 94%;
+    background-color: grey;
+}
+
+@media screen and (min-width: 769px){
+    .box {
+        width: 640px;
+    }
+}
