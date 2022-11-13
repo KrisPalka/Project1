@@ -1,0 +1,285 @@
+
+/*GENERAL SETTINGS OR COMMON FOR SECTIONS*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main_container {
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "roboto";
+}
+.heading1, .heading2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+/*NAVBAR settings*/
+
+.navbar_container {
+    width:100%;
+    height:50px;
+    background: #4E4E4E;
+}
+
+.navbar_main_container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.main_nav {
+    display: flex;
+}
+
+.nav-el1 {
+    text-decoration: none;
+    color: #F1F1F1;
+    padding-right: 46px;
+}
+.nav-el2 {
+    text-decoration: none;
+    color: #F1F1F1;
+    padding-right: 46px;
+}
+.nav-el3 {
+    text-decoration: none;
+    color: #F1F1F1;
+    padding-right: 90px;
+    cursor: not-allowed;
+}
+
+.anchor_mojafirma {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*HEADER SECTION*/
+
+.background_shade {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+.page_header {
+    height:calc(100vh - 50px);
+    margin: auto;
+    background-image: url(../assets/header_background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content_box {
+    width: 100%;
+    padding-top: 298px;
+}
+
+.heading1{
+    width: 577px;
+    height: 46,11px;
+    padding-top: 120px;
+}
+
+.page_header p {
+    padding-top: 62px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.button_box {
+    width: 164px;
+    height: 40.74px;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.button {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40.74px;
+    width: 100%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.page_header a:hover {
+    color: #000000;
+    background-color: white;
+    transition: 1s;
+}
+
+/*SPECIALIST'S SECTION*/
+
+.worker_container{
+    width: 100%;
+}
+
+.ellipse1 {
+    width: 197px;
+    border-radius:50%;
+    aspect-ratio:1;
+    background: #C4C4C4;
+    margin-top: 78px;
+    background-image: url(../assets/person2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ellipse2 {
+    width: 197px;
+    border-radius:50%;
+    aspect-ratio:1;
+    background: #917D7D;
+    background-image: url(../assets/person1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nasi_spec {
+    width: 386px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 51px;
+}
+
+.worker_items {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.worker:nth-of-type(odd) {
+    text-align: right;
+}
+
+.worker:nth-of-type(even) {
+    text-align: left;
+}
+.worker {
+    width: 666px;
+    height: 104px;
+}
+
+.worker_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.worker p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+/*SECTION2 settings*/
+
+.sec2_container{
+    width: 100%;
+    height: 689px;
+    background: #405D78;
+}
+.sec2_box {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.box_container {
+    width:511px;
+    height:463px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 84px;
+    margin-left: 101px;
+    gap:63px;
+}
+
+.box {
+    height: 194px;
+    width: 198px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.heading2 {
+    padding-top: 50px;
+}
+
+/*FOOTER SETTINGS*/
+
+.footer_cont{
+    height: 71px;
+    background: #4E4E4E;
+    width: 100%;
+}
+
+.footer_cont p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 71px;
+}
+
+.icons {
+    display: flex;
+    width: 40px;
+}
+
+.fa-instagram, .fa-facebook {
+    color: white;
+    padding-right:18px;
+}
