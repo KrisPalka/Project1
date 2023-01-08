@@ -5,7 +5,7 @@ const output = document.getElementById("output");
 const select = document.getElementById("currencySelect");
 
 //GET CURRENCY
-const url = `http://api.nbp.pl/api/exchangerates/rates/a/`;
+const url = `https://api.nbp.pl/api/exchangerates/rates/a/`;
 
 const fetchCurrency = (currency) => {
   fetch(url + currency)
@@ -14,7 +14,6 @@ const fetchCurrency = (currency) => {
       const result = inputValue.value * data.rates[0].mid;
       output.innerText = result.toFixed(2) + " PLN";
     })
-    .catch((err) => console.error(err));
 };
 
 clickButton.addEventListener("click", calculate);
