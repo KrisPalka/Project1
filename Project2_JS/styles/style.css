@@ -1,0 +1,79 @@
+/*GENERAL SETTINGS*/
+.page_container {
+  width: 90%;
+  margin: 5% auto;
+}
+.common {
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+body {
+  background-color: lightgrey;
+}
+
+/*MAIN SECTION*/
+.logo {
+  width: 90px;
+  height: 90px;
+  background-image: url("../assets/jpg.jpg");
+  background-position: center;
+  background-size: 250%;
+}
+.heading {
+  margin-left: 10%;
+  height: 40px;
+  width: 250px;
+  background-color: grey;
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+.container1 p {
+  font-weight: 900;
+  font-size: 28px;
+}
+.container2 {
+  width: 100%;
+  display: flex;
+}
+.input_container {
+  width: 40%;
+  display: flex;
+}
+.input_container p {
+  text-align: center;
+}
+.input_val input {
+  width: 100px;
+  min-width: 100px;
+}
+#currencySelect {
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+.curOption {
+  font-size: 16px;
+}
+#btn,
+.currency {
+  width: 100px;
+  margin-left: 5%;
+  font-size: 14px;
+  font-weight: 900;
+}
+.output {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+#output {
+  width: 180px;
+}

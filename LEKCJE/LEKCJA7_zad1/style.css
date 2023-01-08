@@ -1,0 +1,35 @@
+.container {
+  width: 94%;
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 20px 40px;
+  background-color: #24ad98;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 560px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+
+  button:hover {
+    background-color: white;
+    color: #24ad98;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
